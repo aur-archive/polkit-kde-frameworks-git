@@ -1,0 +1,20 @@
+pkgbase = polkit-kde-frameworks-git
+	pkgdesc = Daemon providing a polkit authentication UI for KDE
+	pkgver = r233.b0163f5
+	pkgrel = 1
+	url = https://projects.kde.org/projects/extragear/base/polkit-kde-agent-1/
+	arch = i686
+	arch = x86_64
+	license = LGPL
+	makedepends = extra-cmake-modules
+	makedepends = git
+	makedepends = kdoctools
+	makedepends = python
+	depends = knotifications
+	provides = polkit-kde-frameworks
+	conflicts = polkit-kde-frameworks
+	source = git://anongit.kde.org/polkit-kde-agent-1.git#branch=frameworks
+	md5sums = SKIP
+
+pkgname = polkit-kde-frameworks-git
+
